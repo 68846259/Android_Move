@@ -2,18 +2,15 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_game_shop"
+    android:gravity="center"
     android:layout_gravity="center" >
 
-    <RelativeLayout
+    <com.zengw.tetris.teris1.TetrisView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="50dp"
-        android:gravity="center" >
-
-        <com.zengw.tetris.Shape
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            />
-    </RelativeLayout>
+        android:background="@drawable/bg_wood_1"
+        android:layout_height="match_parent" />
+    
+    
 
 </RelativeLayout>
